@@ -1,0 +1,5 @@
+2024-02-15 09:21:15,091 :INFO :test_e2e :getting all the call items
+2024-02-15 09:21:15,175 :INFO :test_e2e :product.text== black berry: Blackberry
+2024-02-15 09:21:18,466 :INFO :test_e2e :entering country name : ind
+2024-02-15 09:21:26,086 :INFO :test_e2e :alert text:×
+Success! Thank you! Your order will be delivered in next few weeks :-).
