@@ -13,6 +13,7 @@ from utilities.BaseClass import BaseClass
 class TestOne(BaseClass):
     def test_e2e(self):
         log = self.get_logger()
+        log.info("develop branch!")
         home_page = HomePage(self.driver)
 
         # # self.driver.find_element(By.LINK_TEXT, "Shop").click()
