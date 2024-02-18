@@ -60,6 +60,7 @@ class TestOne(BaseClass):
         # assert ("Success!" in self.driver.find_element(By.CSS_SELECTOR, "div[class*='alert-success']").text)
         assert ("Success!" in confirm_page.get_alert_success().text)
         log.info("Success!")
+        log.info("Success2!")
         print(confirm_page.get_alert_success().text)
 
 

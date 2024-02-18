@@ -41,6 +41,7 @@ class TestHomePage(BaseClass):
         # message = driver.find_element(By.CLASS_NAME, "alert-success").text
         message = home_page.get_alert().text
         assert "Success" in message
+        assert "Success" in message
         self.driver.refresh()
 
         # # driver.find_element(By.XPATH, "(//input[@type='text'])[3]").send_keys("HelloAgain")
